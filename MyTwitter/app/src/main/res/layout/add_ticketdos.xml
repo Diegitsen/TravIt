@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"
-    android:gravity="center"
-    android:background="@color/whitebackground"
-    android:layoutDirection="rtl"
-    android:textAlignment="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitebackground">
 
-    android:focusable="false">
-
-   <LinearLayout
+    <LinearLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -42,7 +33,7 @@
             android:focusableInTouchMode="true"/>
 
 
-       <LinearLayout
+        <LinearLayout
 
             android:paddingLeft="10dp"
             android:paddingRight="3dp"
@@ -77,4 +68,5 @@
             android:layout_height="match_parent"></LinearLayout>
 
     </LinearLayout>
+
 </LinearLayout>
